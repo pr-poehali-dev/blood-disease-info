@@ -19,6 +19,9 @@ const Navbar = () => {
             <Link to="/diseases" className="hover:text-accent-foreground px-3 py-2 rounded-md">
               Заболевания
             </Link>
+            <Link to="/compatibility" className="hover:text-accent-foreground px-3 py-2 rounded-md">
+              Совместимость
+            </Link>
           </div>
         </div>
       </div>

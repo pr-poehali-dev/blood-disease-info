@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import BloodGroups from "./pages/BloodGroups";
 import Diseases from "./pages/Diseases";
+import BloodCompatibility from "./pages/BloodCompatibility";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -21,6 +22,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/blood-groups" element={<BloodGroups />} />
           <Route path="/diseases" element={<Diseases />} />
+          <Route path="/compatibility" element={<BloodCompatibility />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
